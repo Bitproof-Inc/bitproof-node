@@ -1,0 +1,29 @@
+{
+  "name": "bitproof",
+  "version": "1.0.0",
+  "description": "Bitproof for Node.js",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.60.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bitproof-Inc/bitproof-node.git"
+  },
+  "keywords": [
+    "Bitproof",
+    "Blockchain",
+    "Timestamping",
+    "Bitcoin"
+  ],
+  "author": "Bitproof, Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bitproof-Inc/bitproof-node/issues"
+  },
+  "homepage": "https://github.com/Bitproof-Inc/bitproof-node#readme"
+}
