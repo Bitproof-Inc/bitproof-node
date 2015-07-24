@@ -33,7 +33,7 @@ var Bitproof = require('bitproof');
 // no API keys are needed for read only
 var notary = new Bitproof();
 
-// push some hex in the blockchain
+// read some hex in the blockchain
 var transactionId = 'e65a501b8caab14cea934e5aff06a82110ed152cc6c6d62a5b5146dc9dc21dae';
 notary.read(transactionId, function(result) {
     console.log(result);
