@@ -25,6 +25,23 @@ notary.push(HEX_UP_TO_40_BYTES, function(result) {
 });
 ```
 
+### Read a proof
+```javascript
+// dependencies
+var Bitproof = require('bitproof');
+
+// no API keys are needed for read only
+var notary = new Bitproof();
+
+// push some hex in the blockchain
+var transactionId = 'e65a501b8caab14cea934e5aff06a82110ed152cc6c6d62a5b5146dc9dc21dae';
+notary.read(transactionId, function(result) {
+    console.log(result);
+}, function(err) {
+    console.log(err);
+});
+```
+
 **Applications using Bitproof for Node.js**
 
 - [Bitproof](https://bitproof.io/)

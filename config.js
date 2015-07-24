@@ -1,7 +1,8 @@
-var base = 'https://api.bitproof.io';
+var base = 'https://api.bitproof.io/v1';
 
 module.exports = {
   urls: {
-    'push': base + '/v1/blockchain/push'
+    'push': base + '/blockchain/push',
+    'read': base + '/blockchain/read'
   }
 };
