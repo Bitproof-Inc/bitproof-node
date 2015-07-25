@@ -46,3 +46,14 @@ notary.read(transactionId, function(result) {
 
 - [Bitproof](https://bitproof.io/)
 - Contact us to be here
+
+### Contributing
+
+#### Developers Quick start
+
+```bash
+git clone https://github.com/Bitproof-Inc/bitproof-node.git
+cd bitproof-node
+npm install
+npm test
+```
